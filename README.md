@@ -28,7 +28,7 @@ This module finds which message have been lost based on the distance of the plan
 
 ### number_of_planes_when_receiving_packet
 
-This module calculate the number of distinct aircraft that exists in the transmission range of a sensor in certain time interval.
+This module calculates the number of distinct aircraft that exists in the transmission range of a sensor in certain time interval.
 You need to provide the position messages received and the general file that contains all messages type.
 
 
