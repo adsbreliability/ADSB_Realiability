@@ -1,4 +1,5 @@
-# ADSB_Realiability
+# adsb-reliability-tools
+
 
 All the modules to process the data were written in python. In order to utilize them  you need to supply a csv file formatted according to your customized input.
 The modules use other libraries that are built in python and some others you need to install them.
@@ -19,17 +20,17 @@ Thi module filters the position messages from other Adsb messges and store them 
 
 ### messages_average
 
-This module calculates the average messages sent by airplanes in 5 seconds.
+This module calculates the average messages sent by an airplanes in 5 seconds.
 
 
 ### find_loss
 
-This module finds which message have been lost based on the distance of the plane from the received sensor.
+This module finds which message have been lost based on the distance of the plane from the receiversensor.
 
 ### number_of_planes_when_receiving_packet
 
 This module calculates the number of distinct aircraft that exists in the transmission range of a sensor in certain time interval.
-You need to provide the position messages received and the general file that contains all messages type.
+You need to provide the position messages received and the general file that contains all messages.
 
 
 
