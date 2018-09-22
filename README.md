@@ -6,7 +6,7 @@ The modules use other libraries that are built in python and some others you nee
 
 You need to install **geopy** and **pyModeS** libraries to run the code. 
 Once you provide the module an input csv file, it will process it and store the result in **Sqlite DB**. 
-The aim of outputing files in Sqlite is to maniuplate the capability it gives to manupilate the data.
+The aim of outputing files in Sqlite is the capability it gives to manupilate the data.
 
 ### Converting Json to Sqlite Database:
 
